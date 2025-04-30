@@ -10,3 +10,8 @@ read time
 
 interest=$(echo "$principal * $rate * $time / 100" | bc)
 echo "El interés simple es: $interest"
+
+
+
+chmod +x simple-interest.sh
+
